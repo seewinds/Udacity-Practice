@@ -1,0 +1,22 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+
+# 思考
+## 你学到了什么新技术？
+对HTML的树状结构有了更好的认识。
+
+## 哪些操作比较简单？
+tag标签的部分比较简单。
+
+## 哪些操作比较困难？
+暂时没有特别困难的部分。
+
+## 到目前为止，你是如何利用 P0 中介绍过的的开发者思维来克服难题的？
+对于自己不熟悉的内容，主动去MDN或Google检索解决方案。
