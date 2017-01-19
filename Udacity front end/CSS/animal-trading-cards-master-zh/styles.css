@@ -1,0 +1,40 @@
+/* 添加 CSS */
+* {
+    font-family: Times New Roman, serif;
+    font-size: 16px;
+    line-height: 1.2em;
+    color: #333;
+}
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+li {
+    list-style-type: none;
+}
+.block {
+    padding: 16px;
+    border: 1px solid #1a3a28;
+    border-radius: 4px;
+    background-color: #bfcaaa;
+}
+.content {
+    margin: 16px 0;
+    padding: 0;
+}
+.item {
+    font-weight: bold;
+}
+#card {
+    width: 300px;
+    box-shadow: 8px 8px 0px #96d0cb;
+    background-color: #1a3a28;
+}
+#animal_image {
+    width: 300px;
+    height: 200px;
+}
+#intro {
+    font-style: italic;
+}
