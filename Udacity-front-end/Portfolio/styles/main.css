@@ -86,7 +86,7 @@ footer {
     display: block;
 }
 
-.head {
+.head-content {
     display: flex;
 }
 
@@ -97,10 +97,6 @@ footer {
 .logo {
     height: 75px;
     width: 75px;
-}
-
-path:hover {
-    fill: #2d3c49;
 }
 
 .work-container {
@@ -129,9 +125,11 @@ path:hover {
 #work1 {
     padding-right: 2%;
 }
+
 #work2 {
     padding: 0 1%;
 }
+
 #work3 {
     padding-left: 2%;
 }
@@ -140,6 +138,7 @@ path:hover {
     header, main {
         width: 900px!important;
     }
+    
     .container {
         width: 100%;
     }
@@ -151,21 +150,26 @@ screen and (max-device-width: 460px) and (orientation: landscape) {
     article {
         width: 100%!important;
     }
+
     .work-container {
         display: block;
     }
+
     .work {
         width: 100%!important;
         display: flex;
     }
+
     .work-img {
         width: 50%;
     }
+
     .work-desc {
         width: 50%;
         margin: auto 0;
         padding: 0 5%;
     }
+
     #work1, #work2, #work3 {
         padding: 0;
     }
@@ -177,32 +181,41 @@ screen and (max-device-width: 460px) and (orientation: portrait) {
         width: 100%!important;
         margin-bottom: 30px;
     }
+    
     h1 {
         font-size: 40px;
     }
+
     h2 {
         font-size: 20px;
     }
+
     h3, h4 {
         font-size: 24px;
         margin: 10px 0;
     }
+
     .logo {
         width: 40px;
         height: 40px;
     }
+
     .work-container {
         display: block;
     }
+
     .work {
         width: 100%!important;
     }
+
     .work-desc {
-        margin: 15px, 0;
+        margin: 15px 0;
     }
+
     #feature {
         margin: 20px 0 10px;
     }
+
     #work1, #work2, #work3 {
         margin: 0;
         padding: 0;
