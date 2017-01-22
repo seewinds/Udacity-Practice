@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    width: 100%;
+    display: block;
+}
+
+.col-4 {
+    width: 33.3333%;
+}
+
+.col-8 {
+    width: 66.6667%;
+}
+
+.col-11 {
+    width: 91.3333%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
