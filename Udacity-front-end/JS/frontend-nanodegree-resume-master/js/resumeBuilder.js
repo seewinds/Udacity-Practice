@@ -92,7 +92,7 @@ $(".education-entry").append(formattedSchoolMajor);
 
 
 var bio = {
-    "name": "Saoirse",
+    "name": "Saoirse Brin",
     "role": "Designer",
     "contact": {
         "mobile": "111",
@@ -130,7 +130,8 @@ var projects = {
         {
             "title": "Project A",
             "dates": "2015",
-            "description": "something"
+            "description": "something",
+            "images": "images/197x148.gif"
         }
     ]
 };
@@ -199,7 +200,7 @@ if (work !== null) {
     }
 }
 
-if (projects !== null) {
+projects.display = function() {
     for (project in projects.projects) {
         $("#projects").append(HTMLprojectStart);
 
@@ -209,6 +210,13 @@ if (projects !== null) {
 
         var formattedContent = formattedTitle + formattedDates + formattedDescription;
         $(".project-entry:last").append(formattedContent);
+
+        if(projects.projects[project].images.length>0) {
+            for (image in projects.projects[project].images) {
+                var formattedImage  = HTMLprojectImage.replace("%data%",projects.projects[project].images[image]);
+                $(".project-entry:last").append(formattedImage);
+            }
+        }
     }
 }
 
@@ -244,3 +252,18 @@ if (education !== null) {
     }
 }
 
+$("#main").append(internationalizeButton);
+
+function inName() {
+    var mName = bio.name.split(" ");
+    mName[0].slice(0,1).toUpperCase();
+    mName[0].slice(1).toLowerCase();
+    mName[1] = mName[1].toUpperCase();
+    return mName.join(" ");
+}
+
+$("button").click(function() {
+    console.log(inName());
+});
+
+$("#mapDiv").append(googleMap);
