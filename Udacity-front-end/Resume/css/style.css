@@ -1,0 +1,251 @@
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.clear-fix {
+    overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+    margin: 0 20% 40px;
+}
+
+h1 {
+    font-size: 40px;
+    color: #73d5ff;
+    line-height: 48px;
+    display: inline;
+    margin-right: 20px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #999;
+    line-height: 29px;
+    padding: 10px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 20px;
+    color: #000;
+    line-height: 22px;
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #4a4a4a;
+    line-height: 17px;
+}
+
+h2,
+h3,
+h4,
+h5 {
+    padding: 50px 20% 20px;
+}
+
+.date-text {
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    float: left;
+}
+
+.location-text {
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    line-height: 16px;
+    float: right;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+    line-height: 21px;
+}
+
+a {
+    color: #1199c3;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+}
+
+.welcome-message {
+    font-style: italic;
+    font-size: 18px;
+    color: #f5fffe;
+    line-height: 28px;
+    margin: 30px 10px auto auto;
+    display: none;
+    text-align: right;
+}
+
+#skills-h3 {
+    color: #73d5ff;
+    display: none;
+    text-align: right;
+    padding: 20px 10px 10px 0;
+}
+
+#skills {
+    text-align: center;
+}
+
+.blue {
+    background-color: #134a5a;
+    padding-top: 20px;
+    color: #f5fffe!important;
+}
+
+.blue-text {
+    color: #73d5ff;
+}
+
+.white-text {
+    font-weight: bold;
+    color: #f5fffe;
+}
+
+.gray {
+    background-color: #f3f3f3;
+    padding-bottom: 10px;
+    clear: both;
+}
+
+.dark-gray {
+    background-color: #134a5a;
+}
+
+#header {
+    background-image: url("../images/hero.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #f5fffe;
+}
+
+.flex-box {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 10px;
+}
+
+.flex-item {
+    margin: 10px 0;
+}
+
+.center-content {
+    padding: 5% 20%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.biopic {
+    float: left;
+    margin: 50px 10px 10px 10px;
+    width: 200px;
+    display: none;
+}
+
+img {
+    margin: 20px;
+    border-radius: 6px;
+    max-width: 100%;
+}
+
+span {
+    margin: 5px;
+}
+
+#lets-connect {
+    text-align: center;
+}
+
+
+/*map*/
+
+#map {
+    display: block;
+    height: 400px;
+    margin: 0 20%;
+    width: 60%;
+}
+
+#mapDiv {
+    height: 500px;
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+
+/* Media queries to handle various device widths */
+
+@media only screen and (min-width: 1550px) {
+    .education-entry,
+    .work-entry,
+    .project-entry {
+        margin: 0 auto 40px;
+        max-width: 900px;
+    }
+    h2,
+    h3 {
+        margin: 0 auto 20px;
+        width: 900px;
+    }
+    #skills-h3 {
+        margin-right: 0;
+    }
+    #map {
+        margin: 0 auto;
+        max-width: 900px;
+    }
+    .blue {
+        margin: 0;
+        width: 100%;
+        padding: 20px;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    #skills-h3,
+    .biopic,
+    .welcome-message {
+        display: block;
+    }
+    #skills {
+        text-align: right;
+    }
+}
